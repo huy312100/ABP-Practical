@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Demo.Application": {
+      "path": "src/Demo.Application/Demo.Application.abppkg",
+      "folder": "src"
+    },
+    "Demo.Application.Tests": {
+      "path": "test/Demo.Application.Tests/Demo.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Demo.Domain.Shared": {
+      "path": "src/Demo.Domain.Shared/Demo.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Demo.Application.Contracts": {
+      "path": "src/Demo.Application.Contracts/Demo.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Demo.HttpApi": {
+      "path": "src/Demo.HttpApi/Demo.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Demo.HttpApi.Client": {
+      "path": "src/Demo.HttpApi.Client/Demo.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Demo.EntityFrameworkCore.Tests": {
+      "path": "test/Demo.EntityFrameworkCore.Tests/Demo.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Demo.EntityFrameworkCore": {
+      "path": "src/Demo.EntityFrameworkCore/Demo.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Demo.TestBase": {
+      "path": "test/Demo.TestBase/Demo.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Demo.Domain.Tests": {
+      "path": "test/Demo.Domain.Tests/Demo.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Demo.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Demo.HttpApi.Client.ConsoleTestApp/Demo.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Demo.DbMigrator": {
+      "path": "src/Demo.DbMigrator/Demo.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Demo.HttpApi.Host": {
+      "path": "src/Demo.HttpApi.Host/Demo.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Demo.Domain": {
+      "path": "src/Demo.Domain/Demo.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "f46c62e7-4f0b-4155-aae6-8023fc6b06c6",
+  "template": "empty",
+  "modules": {
+    "src": {
+      "path": "src.abpmdl"
+    }
+  }
+}

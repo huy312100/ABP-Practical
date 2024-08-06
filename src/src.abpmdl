@@ -1,0 +1,31 @@
+{
+  "packages": {
+    "Demo.HttpApi.Client": {
+      "path": "Demo.HttpApi.Client/Demo.HttpApi.Client.abppkg"
+    },
+    "Demo.Domain": {
+      "path": "Demo.Domain/Demo.Domain.abppkg"
+    },
+    "Demo.DbMigrator": {
+      "path": "Demo.DbMigrator/Demo.DbMigrator.abppkg"
+    },
+    "Demo.Application": {
+      "path": "Demo.Application/Demo.Application.abppkg"
+    },
+    "Demo.HttpApi.Host": {
+      "path": "Demo.HttpApi.Host/Demo.HttpApi.Host.abppkg"
+    },
+    "Demo.Application.Contracts": {
+      "path": "Demo.Application.Contracts/Demo.Application.Contracts.abppkg"
+    },
+    "Demo.HttpApi": {
+      "path": "Demo.HttpApi/Demo.HttpApi.abppkg"
+    },
+    "Demo.Domain.Shared": {
+      "path": "Demo.Domain.Shared/Demo.Domain.Shared.abppkg"
+    },
+    "Demo.EntityFrameworkCore": {
+      "path": "Demo.EntityFrameworkCore/Demo.EntityFrameworkCore.abppkg"
+    }
+  }
+}
