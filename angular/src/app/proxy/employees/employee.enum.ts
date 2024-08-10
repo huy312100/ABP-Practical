@@ -20,7 +20,7 @@ export enum Department {
 }
 
 export const DepartmentMapping = {
-  [Department.Unknown]: 'Unassigned',
+  [Department.Unknown]: 'Unknown',
   [Department.IT]: 'IT',
   [Department.Finance]: 'Finance',
   [Department.HR]: 'Human resources',
@@ -35,7 +35,7 @@ export enum Title {
 }
 
 export const TitleMapping = {
-  [Title.Unknown]: 'Unassigned',
+  [Title.Unknown]: 'Unknown',
   [Title.Specialist]: 'Specialist',
   [Title.Manager]: 'Manager'
 };
